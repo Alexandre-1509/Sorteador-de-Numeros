@@ -70,7 +70,7 @@ button:active{
     opacity: .6;
 }
 
-.mensagem {
+.mensage {
     font-size: 20px;
     margin-top: 25px;
     font-weight: bold;
@@ -78,7 +78,7 @@ button:active{
     line-height: 30px;
 }
 
-.numero-sorteado {
+.drawn-number {
     font-size: 50px;
     font-weight: bold;
     margin-top: 15px;
@@ -111,11 +111,11 @@ button:active{
         font-size: 16px;
     }
 
-    .mensagem {
+    .mensage {
         font-size: 20px;
     }
 
-    .numero-sorteado {
+    .drawn-number {
         font-size: 30px;
     }
 }

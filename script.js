@@ -1,15 +1,15 @@
 const buttonRandom = document.querySelector('.button-random')
-const mensagem = document.querySelector('.mensagem')
-const numeroSorteado = document.querySelector('.numero-sorteado')
+const mensage = document.querySelector('.mensage')
+const drawnNumber = document.querySelector('.drawn-number')
 
 function clicou() {
-    const firstValue = document.querySelector('.primeiro-valor').value;
-    const secondValue = document.querySelector('.segundo-valor').value;
+    const firstValue = document.querySelector('.first-value').value;
+    const secondValue = document.querySelector('.second-value').value;
 
     const randomNumber = Math.random() * (firstValue, secondValue)
-    const resultado = randomNumber.toFixed(0);
-    mensagem.innerHTML = 'O número sorteador foi: <br>'
-    numeroSorteado.innerHTML = resultado
+    const result = randomNumber.toFixed(0);
+    mensage.innerHTML = 'O número sorteador foi: <br>'
+    drawnNumber.innerHTML = result
 }
 
 buttonRandom.addEventListener('click', clicou)
