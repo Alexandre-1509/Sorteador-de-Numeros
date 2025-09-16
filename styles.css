@@ -7,7 +7,6 @@
 }
 
 body {
-    background-color: #000;
     background: url('./assets/background.jpg') fixed no-repeat;
     background-size: cover;
 }
@@ -83,4 +82,39 @@ button:active{
     font-weight: bold;
     margin-top: 15px;
     color: #0000FF
+}
+
+@media screen and (max-width: 680px) {
+    main {
+        width: 90vw;
+        height: 80vh;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    input {
+        height: 40px;
+        font-size: 16px;
+        width: 200px;
+    }
+
+    button {
+        height: 40px;
+        width: 200px;
+        font-size: 16px;
+    }
+
+    .mensagem {
+        font-size: 20px;
+    }
+
+    .numero-sorteado {
+        font-size: 30px;
+    }
 }
