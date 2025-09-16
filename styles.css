@@ -4,6 +4,7 @@
     box-sizing: border-box;
     outline: none;
     appearance: none;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
